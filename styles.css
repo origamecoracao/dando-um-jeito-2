@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;/*Define a fonte do texto*/
+    line-height: 2.5;/*Define o espaçamento das linhas*/
+    text-align:justify ;/*Define onde o texto vai ficar(esquerda,centro,direita)*/
+    font-size:20px;
+    /*background-color:rgb(113, 131, 233);/*Define a cor de fundo*/
+    color: rgb(255, 255, 255);/*Define a cor das letras*/
+    background-image: url('folder.jpg'); /* Substitua 'background.jpg' pela sua imagem de plano de fundo */
+    background-size: cover;
+}  
+
+.conteiner{
+    text-align: center;
+}
+.container img {
+    display: inline-block;
+}
+
+u {
+    text-decoration: underline;
+    text-decoration-color: #231aa3; /* Cor do sublinhado */
+}
+
+
+header {
+    background-color: #5b6363;
+    color:  #303030;   
+text-align: center;
+    padding: 20px;     
+}   
+/**/ 
+    /*background-image: url('.');
+    background-size: cover;
+    background-position: center;
+    height: 110px; /* ajuste conforme necessário */
+iframe{
+   width: 80%;
+   display: block;
+   margin: 0 auto;
+}
+
+a {
+    color: #007bff; /* Substitua pela cor desejada */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+h2 {
+    text-align: center;
+    color: rgb(119, 117, 117);
+}
+
+h3 {
+    text-align:justify ;/*Define onde o texto vai ficar(esquerda,centro,direita)*/
+    color: #ffffff;
+}
+
+h4 {
+    text-align:left;
+    color: rgb(207, 89, 20);
+}
+
+h5 {
+    text-align:left;
+}
+
+strong {
+    font-weight: bold; /* Define o peso da fonte como negrito */
+    color: rgb(109, 107, 107);/*Define a cor do negrito*/
+}
+
+
+nav ul {
+    list-style-type: none;
+}
+
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+
+nav ul li a {
+    color: #ff7b08;
+    text-decoration: none;
+}
+
+
+section {
+    padding: 2rem;
+    margin: 1rem;
+    background-color: #383635ab;
+}
+
+
+footer {
+    background-color: #bd2323;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    /*position: fixed;(Define que algo vai ficar fixo na tela)*/
+    bottom: 0;
+    width: 100%;/*Define quanto o botão vai assumir canto a canto do site*/
+}
